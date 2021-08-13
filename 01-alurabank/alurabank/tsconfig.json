@@ -1,10 +1,11 @@
 {
     "compilerOptions": {
         "target": "es6",
-        "outDir": "app/js",
+        "outDir": "dist/js",
         "noEmitOnError": true,
         "noImplicitAny": true,
-        "removeComments": true
+        "removeComments": true,
+        "strictNullChecks": true
     },
     "include": [
         "app/ts/**/*"

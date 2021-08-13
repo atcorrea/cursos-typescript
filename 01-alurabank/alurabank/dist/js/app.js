@@ -1,5 +1,4 @@
 import { NegociacaoController } from './controllers/NegociacaoController.js';
-
 const controller = new NegociacaoController();
 const form = document.querySelector('.form');
 if (form) {
@@ -7,6 +6,8 @@ if (form) {
         event.preventDefault();
         controller.adiciona();
     });
-} else {
+}
+else {
     throw new Error("Não foi possível inicializar a aplicação, verifique se o form existe");
-};
+}
+;
